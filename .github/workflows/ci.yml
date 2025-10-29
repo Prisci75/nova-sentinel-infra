@@ -1,16 +1,13 @@
 name: Test Pipeline
-
 on:
-push:
-branches:
-- main
-
+  push:
+    branches:
+      - main
 jobs:
-build:
-runs-on: ubuntu-latest
-steps:
-- name: Checkout repository
-uses: actions/checkout@v3
-
-- name: Display files
-run: ls -la
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Display files
+        run: ls -la
