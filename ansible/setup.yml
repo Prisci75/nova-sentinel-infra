@@ -1,0 +1,15 @@
+- name: Configuration Nova Sentinel (localhost)
+  hosts: local
+  become: yes
+  tasks:
+    - name: Créer un fichier de configuration simulé
+      copy:
+        content: "Serveur localhost configuré par Ansible le {{ ansible_date_time.date }}"
+        dest: "/tmp/nova_sentinel_config.txt"
+
+    - name: Installer les dépendances système (exemple)
+      apt:
+        name: [curl, unzip]
+        state: present
+        update_cache: yes
+

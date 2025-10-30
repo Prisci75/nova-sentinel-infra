@@ -1,0 +1,12 @@
+2025-10-30 20:22:15,004 - INFO - ===== DÉMARRAGE DE L’AUDIT NOVA SENTINEL =====
+2025-10-30 20:22:15,004 - INFO - Collecte des données en cours...
+2025-10-30 20:22:15,004 - INFO - Informations système collectées avec succès.
+2025-10-30 20:22:16,006 - INFO - Informations CPU collectées avec succès.
+2025-10-30 20:22:16,006 - INFO - Informations mémoire collectées avec succès.
+2025-10-30 20:22:16,007 - INFO - Informations disque collectées avec succès.
+2025-10-30 20:22:16,085 - INFO - Informations réseau collectées avec succès.
+2025-10-30 20:22:16,086 - INFO - Nombre de processus collecté avec succès.
+2025-10-30 20:22:34,679 - INFO - Analyse sécurité collectée avec succès.
+2025-10-30 20:22:34,679 - INFO - Rapport JSON généré avec succès.
+2025-10-30 20:22:34,679 - INFO - Rapport Markdown généré avec succès.
+2025-10-30 20:22:34,679 - INFO - ===== FIN DE L’AUDIT NOVA SENTINEL =====
